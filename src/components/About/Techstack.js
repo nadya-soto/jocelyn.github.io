@@ -7,9 +7,6 @@ import {
 } from "react-icons/di";
 import {
   SiPostgresql,
-  SiFirebase,
-  SiRedis,
-  SiNextdotjs,
   SiTensorflow,
   SiPytorch,
   SiDocker,
@@ -18,28 +15,42 @@ import {
   SiPowerbi,
   SiFlask,
   SiMlflow,
+  SiR,
+  SiMicrosoftazure,
 } from "react-icons/si";
 
 function Techstack() {
+  
   const skills = [
+    // Lenguajes y versionamiento
     { icon: <DiPython />, label: "Python" },
+    { icon: <SiR />, label: "R" },
     { icon: <DiJavascript1 />, label: "JavaScript" },
     { icon: <DiGit />, label: "Git" },
-    { icon: <SiPostgresql />, label: "PostgreSQL" },
-    { icon: <SiFirebase />, label: "Firebase" },
-    { icon: <SiRedis />, label: "Redis" },
+
+    // Bases de datos
+    { icon: <SiPostgresql />, label: "SQL / PostgreSQL" },
+
+    // Machine Learning / Deep Learning
     { icon: <SiTensorflow />, label: "TensorFlow" },
     { icon: <SiPytorch />, label: "PyTorch" },
-    { icon: <SiAmazonaws />, label: "AWS" },
-    { icon: <SiDocker />, label: "Docker" },
     { icon: <SiMlflow />, label: "MLflow" },
+
+    // Cloud y MLOps
+    { icon: <SiAmazonaws />, label: "AWS" },
+    { icon: <SiMicrosoftazure />, label: "Azure ML" },
+    { icon: <SiDocker />, label: "Docker" },
+
+    // Visualización y reporting
     { icon: <SiTableau />, label: "Tableau" },
     { icon: <SiPowerbi />, label: "Power BI" },
+
+    // App development
     { icon: <SiFlask />, label: "Flask" },
-    { icon: <SiNextdotjs />, label: "Next.js" },
   ];
 
   return (
+    
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       {skills.map(({ icon, label }, idx) => (
         <Col

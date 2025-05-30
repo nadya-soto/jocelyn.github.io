@@ -1,36 +1,32 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import {
-  AiFillGithub
-} from "react-icons/ai";
-
 
 function Footer() {
-  let date = new Date();
-  let year = date.getFullYear();
+  const year = new Date().getFullYear();
+  
   return (
-    <Container fluid className="footer">
-      <Row>
-        <Col md="4" className="footer-copywright">
-          <h10>Design based on Soumyajit Behera
-          <li className="social-icons">
-              <a
-                href="https://github.com/soumyajit4419/Portfolio"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiFillGithub />
-              </a>
-            </li></h10> 
+    <Container fluid className="footer" style={{
+      backgroundColor: "#1a1a2e",
+      color: "#f0f0f0",
+      padding: "2rem 0",
+      marginTop: "3rem"
+    }}>
+      <Row className="justify-content-center align-items-center">
+      
+        {/* Copyright */}
+        <Col md={4} className="text-center">
+          <h5 style={{
+            margin: 0,
+            fontSize: "1rem",
+            fontWeight: 400,
+            color: "black"
+          }}>
+            Copyright © {year} Jocelyn Soto
+          </h5>
         </Col>
-        <Col md="4" className="footer-copywright">
-          <h5>Copyright © {year} SB</h5>
-        </Col>
-        </Row>
+      </Row>
     </Container>
   );
 }
 
 export default Footer;
-
