@@ -25,12 +25,15 @@ function App() {
     const timer = setTimeout(() => {
       upadateLoad(false);
     }, 1200);
-
     return () => clearTimeout(timer);
   }, []);
 
+  // 👇 Aquí está el cambio importante
+  const basename =
+    process.env.NODE_ENV === "production" ? "/jocelyn.github.io" : "/";
+
   return (
-    <Router>
+    <Router basename={basename}>
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
@@ -40,7 +43,7 @@ function App() {
           <Route path="/project" element={<Projects />} />
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
-          <Route path="*" element={<Navigate to="/"/>} />
+          <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         <Footer />
       </div>
