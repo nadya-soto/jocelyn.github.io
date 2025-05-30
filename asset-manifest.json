@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/nadya-soto/jocelyn.github.io/static/css/main.78da30e6.css",
-    "main.js": "/nadya-soto/jocelyn.github.io/static/js/main.e2d03d89.js",
-    "static/js/770.b477def6.chunk.js": "/nadya-soto/jocelyn.github.io/static/js/770.b477def6.chunk.js",
-    "static/js/453.1407b060.chunk.js": "/nadya-soto/jocelyn.github.io/static/js/453.1407b060.chunk.js",
-    "static/media/home-main.svg": "/nadya-soto/jocelyn.github.io/static/media/home-main.f0bb32a2d5799eac70ec4bc60b7bbf1f.svg",
-    "static/media/povertyAppImg.jpg": "/nadya-soto/jocelyn.github.io/static/media/povertyAppImg.8ef2b903b39331757b48.jpg",
-    "static/media/Jocelyn_Soto_CV.pdf": "/nadya-soto/jocelyn.github.io/static/media/Jocelyn_Soto_CV.41d05964e70c5f9bef64.pdf",
-    "static/media/rlSuiteImg.jpg": "/nadya-soto/jocelyn.github.io/static/media/rlSuiteImg.3186ea0c149f60b3fa4a.jpg",
-    "static/media/renewableImg.jpg": "/nadya-soto/jocelyn.github.io/static/media/renewableImg.f9eb41f18715790c2cf4.jpg",
-    "static/media/audioAppImg.jpg": "/nadya-soto/jocelyn.github.io/static/media/audioAppImg.4821282a04dbbe7457af.jpg",
-    "static/media/connectxImg.jpg": "/nadya-soto/jocelyn.github.io/static/media/connectxImg.842f8c0cba8aa6e557bf.jpg",
-    "static/media/sanctionsImg.jpg": "/nadya-soto/jocelyn.github.io/static/media/sanctionsImg.0929b3609ea4cbd91ada.jpg",
-    "static/media/about.png": "/nadya-soto/jocelyn.github.io/static/media/about.2b17aca619aaa2f61450.png",
-    "static/media/avatar.jpg": "/nadya-soto/jocelyn.github.io/static/media/avatar.fd0d1314e33cbbe0a15a.jpg",
-    "static/media/home-bg.jpg": "/nadya-soto/jocelyn.github.io/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
-    "static/media/pre.svg": "/nadya-soto/jocelyn.github.io/static/media/pre.d4812f51c8c80976eaab.svg",
-    "index.html": "/nadya-soto/jocelyn.github.io/index.html",
-    "main.78da30e6.css.map": "/nadya-soto/jocelyn.github.io/static/css/main.78da30e6.css.map",
-    "main.e2d03d89.js.map": "/nadya-soto/jocelyn.github.io/static/js/main.e2d03d89.js.map",
-    "770.b477def6.chunk.js.map": "/nadya-soto/jocelyn.github.io/static/js/770.b477def6.chunk.js.map",
-    "453.1407b060.chunk.js.map": "/nadya-soto/jocelyn.github.io/static/js/453.1407b060.chunk.js.map"
+    "main.css": "/static/css/main.a39839d8.css",
+    "main.js": "/static/js/main.1c53fdb4.js",
+    "static/js/770.b477def6.chunk.js": "/static/js/770.b477def6.chunk.js",
+    "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
+    "static/media/home-main.svg": "/static/media/home-main.f0bb32a2d5799eac70ec4bc60b7bbf1f.svg",
+    "static/media/povertyAppImg.jpg": "/static/media/povertyAppImg.8ef2b903b39331757b48.jpg",
+    "static/media/Jocelyn_Soto_CV.pdf": "/static/media/Jocelyn_Soto_CV.41d05964e70c5f9bef64.pdf",
+    "static/media/rlSuiteImg.jpg": "/static/media/rlSuiteImg.3186ea0c149f60b3fa4a.jpg",
+    "static/media/renewableImg.jpg": "/static/media/renewableImg.f9eb41f18715790c2cf4.jpg",
+    "static/media/audioAppImg.jpg": "/static/media/audioAppImg.4821282a04dbbe7457af.jpg",
+    "static/media/connectxImg.jpg": "/static/media/connectxImg.842f8c0cba8aa6e557bf.jpg",
+    "static/media/sanctionsImg.jpg": "/static/media/sanctionsImg.0929b3609ea4cbd91ada.jpg",
+    "static/media/about.png": "/static/media/about.2b17aca619aaa2f61450.png",
+    "static/media/avatar.jpg": "/static/media/avatar.fd0d1314e33cbbe0a15a.jpg",
+    "static/media/home-bg.jpg": "/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
+    "index.html": "/index.html",
+    "main.a39839d8.css.map": "/static/css/main.a39839d8.css.map",
+    "main.1c53fdb4.js.map": "/static/js/main.1c53fdb4.js.map",
+    "770.b477def6.chunk.js.map": "/static/js/770.b477def6.chunk.js.map",
+    "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.78da30e6.css",
-    "static/js/main.e2d03d89.js"
+    "static/css/main.a39839d8.css",
+    "static/js/main.1c53fdb4.js"
   ]
 }
