@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/nadya-soto/jocelyn.github.io/static/css/main.78da30e6.css",
-    "main.js": "/nadya-soto/jocelyn.github.io/static/js/main.8eef63ad.js",
+    "main.js": "/nadya-soto/jocelyn.github.io/static/js/main.e2d03d89.js",
     "static/js/770.b477def6.chunk.js": "/nadya-soto/jocelyn.github.io/static/js/770.b477def6.chunk.js",
     "static/js/453.1407b060.chunk.js": "/nadya-soto/jocelyn.github.io/static/js/453.1407b060.chunk.js",
     "static/media/home-main.svg": "/nadya-soto/jocelyn.github.io/static/media/home-main.f0bb32a2d5799eac70ec4bc60b7bbf1f.svg",
@@ -18,12 +18,12 @@
     "static/media/pre.svg": "/nadya-soto/jocelyn.github.io/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/nadya-soto/jocelyn.github.io/index.html",
     "main.78da30e6.css.map": "/nadya-soto/jocelyn.github.io/static/css/main.78da30e6.css.map",
-    "main.8eef63ad.js.map": "/nadya-soto/jocelyn.github.io/static/js/main.8eef63ad.js.map",
+    "main.e2d03d89.js.map": "/nadya-soto/jocelyn.github.io/static/js/main.e2d03d89.js.map",
     "770.b477def6.chunk.js.map": "/nadya-soto/jocelyn.github.io/static/js/770.b477def6.chunk.js.map",
     "453.1407b060.chunk.js.map": "/nadya-soto/jocelyn.github.io/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.78da30e6.css",
-    "static/js/main.8eef63ad.js"
+    "static/js/main.e2d03d89.js"
   ]
 }
