@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jocelyn.github.io/static/css/main.a3e1d82b.css",
-    "main.js": "/jocelyn.github.io/static/js/main.add39dcb.js",
+    "main.js": "/jocelyn.github.io/static/js/main.cfb8161d.js",
     "static/js/770.b477def6.chunk.js": "/jocelyn.github.io/static/js/770.b477def6.chunk.js",
     "static/js/453.1407b060.chunk.js": "/jocelyn.github.io/static/js/453.1407b060.chunk.js",
     "static/media/home-main.svg": "/jocelyn.github.io/static/media/home-main.f0bb32a2d5799eac70ec4bc60b7bbf1f.svg",
@@ -12,18 +12,17 @@
     "static/media/audioAppImg.jpg": "/jocelyn.github.io/static/media/audioAppImg.4821282a04dbbe7457af.jpg",
     "static/media/connectxImg.jpg": "/jocelyn.github.io/static/media/connectxImg.842f8c0cba8aa6e557bf.jpg",
     "static/media/sanctionsImg.jpg": "/jocelyn.github.io/static/media/sanctionsImg.0929b3609ea4cbd91ada.jpg",
-    "static/media/about.png": "/jocelyn.github.io/static/media/about.2b17aca619aaa2f61450.png",
     "static/media/avatar.jpg": "/jocelyn.github.io/static/media/avatar.fd0d1314e33cbbe0a15a.jpg",
     "static/media/home-bg.jpg": "/jocelyn.github.io/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
     "static/media/pre.svg": "/jocelyn.github.io/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/jocelyn.github.io/index.html",
     "main.a3e1d82b.css.map": "/jocelyn.github.io/static/css/main.a3e1d82b.css.map",
-    "main.add39dcb.js.map": "/jocelyn.github.io/static/js/main.add39dcb.js.map",
+    "main.cfb8161d.js.map": "/jocelyn.github.io/static/js/main.cfb8161d.js.map",
     "770.b477def6.chunk.js.map": "/jocelyn.github.io/static/js/770.b477def6.chunk.js.map",
     "453.1407b060.chunk.js.map": "/jocelyn.github.io/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a3e1d82b.css",
-    "static/js/main.add39dcb.js"
+    "static/js/main.cfb8161d.js"
   ]
 }
