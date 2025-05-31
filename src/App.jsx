@@ -20,7 +20,7 @@ function AboutCard() {
             marginBottom: "1.5rem",
             color: "#6f42c1"
           }}>
-            About Me
+            Work with Me
           </h1>
           
           <h3 style={{ 

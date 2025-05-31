@@ -51,7 +51,7 @@ function Techstack() {
 
   return (
     
-    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+    <Row style={{ justifyContent: "center", paddingBottom: "50px" , color: "white"}}>
       {skills.map(({ icon, label }, idx) => (
         <Col
           key={idx}
@@ -61,7 +61,7 @@ function Techstack() {
           style={{ textAlign: "center" }}
         >
           <div style={{ fontSize: "3rem" }}>{icon}</div>
-          <div style={{ fontSize: "0.75rem", marginTop: "0.3rem", color: "#6c757d" }}>
+          <div style={{ fontSize: "0.75rem", marginTop: "0.3rem", color: "white" }}>
             {label}
           </div>
         </Col>

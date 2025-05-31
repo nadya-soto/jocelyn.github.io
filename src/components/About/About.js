@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
-import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import ServicesCard from "./ServicesCard";
 import { useInView } from "react-intersection-observer";
@@ -10,10 +9,12 @@ import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
+import { Link } from "react-router-dom";
+
+
 function About() {
   const { ref: bioRef, inView: bioVisible } = useInView({ triggerOnce: true, threshold: 0.1 });
   const { ref: servicesRef, inView: servicesVisible } = useInView({ triggerOnce: true, threshold: 0.1 });
-  const { ref: skillsRef, inView: skillsVisible } = useInView({ triggerOnce: true, threshold: 0.1 });
 
   const fadeInStyle = (visible, delay = "0s") => ({
     opacity: visible ? 1 : 0,
@@ -86,18 +87,76 @@ function About() {
           </Col>
         </Row>
 
-        {/* Skillset Section */}
-        <div ref={skillsRef} style={{ marginTop: "0rem", ...fadeInStyle(skillsVisible, "0.6s") }}>
-          <h1 style={{ fontSize: "2.5em",marginBottom: "5rem", color: "white" }}>
-              Professional <span className="purple">Skillset</span> 
-            </h1>
-          <Techstack />
-        </div>
+
+ {/* botones */}
+    <Row className="justify-content-center mt-5">
+      <Col md="auto">
+        <Link to="/">
+          <button
+            style={{
+              backgroundColor: "#6f42c1",
+              border: "none",
+              padding: "15px 35px",
+              borderRadius: "50px",
+              color: "#fff",
+              fontWeight: "600",
+              fontSize: "1.2rem",
+              marginRight: "20px",
+              marginTop: "60px",
+              boxShadow: "0 8px 20px rgba(111, 66, 193, 0.3)",
+              transition: "all 0.3s ease",
+              cursor: "pointer"
+            }}
+            onMouseOver={(e) => {
+              e.currentTarget.style.backgroundColor = "#5a379e";
+              e.currentTarget.style.boxShadow = "0 12px 24px rgba(111, 66, 193, 0.4)";
+            }}
+            onMouseOut={(e) => {
+              e.currentTarget.style.backgroundColor = "#6f42c1";
+              e.currentTarget.style.boxShadow = "0 8px 20px rgba(111, 66, 193, 0.3)";
+            }}
+          >
+            Home
+          </button>
+        </Link>
+      </Col>
+
+      <Col md="auto">
+        <Link to="/project">
+          <button
+            style={{
+              backgroundColor: "#6f42c1",
+              border: "none",
+              padding: "15px 35px",
+              borderRadius: "50px",
+              color: "#fff",
+              fontWeight: "600",
+              fontSize: "1.2rem",
+              marginTop: "60px",
+              boxShadow: "0 8px 20px rgba(111, 66, 193, 0.3)",
+              transition: "all 0.3s ease",
+              cursor: "pointer"
+            }}
+            onMouseOver={(e) => {
+              e.currentTarget.style.backgroundColor = "#5a379e";
+              e.currentTarget.style.boxShadow = "0 12px 24px rgba(111, 66, 193, 0.4)";
+            }}
+            onMouseOut={(e) => {
+              e.currentTarget.style.backgroundColor = "#6f42c1";
+              e.currentTarget.style.boxShadow = "0 8px 20px rgba(111, 66, 193, 0.3)";
+            }}
+          >
+           See My Projects
+          </button>
+        </Link>
+      </Col>
+    </Row>
+
         {/* Find me on*/}
       
       <Row md={15} className="home-about-social tex t-center mt-5">
         <h1 style={{
-          fontSize: "2.2em",
+          fontSize: "2.em",
           paddingBottom: "30px",
           position: "relative",
           display: "inline-block"
@@ -193,6 +252,9 @@ function About() {
         }}>
         </p>
       </Row>
+
+
+   
       </Container>
     </Container>
   );

@@ -13,6 +13,8 @@ import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
+import { Link } from "react-router-dom";
+
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -89,6 +91,74 @@ function Projects() {
   </Col>
 </Row>
         
+
+  {/* Boton*/}
+  <Row className="justify-content-center mt-5">
+    <Col md="auto">
+      <Link to="/about">
+        <button
+          style={{
+            backgroundColor: "#6f42c1",
+            border: "none",
+            padding: "15px 35px",
+            borderRadius: "50px",
+            color: "#fff",
+            fontWeight: "600",
+            fontSize: "1.2rem",
+            position: "relative",
+            marginRight: "20px",
+            marginTop: "60px",
+            boxShadow: "0 8px 20px rgba(111, 66, 193, 0.3)",
+            transition: "all 0.3s ease",
+            cursor: "pointer"
+          }}
+          onMouseOver={(e) => {
+            e.currentTarget.style.backgroundColor = "#5a379e";
+            e.currentTarget.style.boxShadow = "0 12px 24px rgba(111, 66, 193, 0.4)";
+          }}
+          onMouseOut={(e) => {
+            e.currentTarget.style.backgroundColor = "#6f42c1";
+            e.currentTarget.style.boxShadow = "0 8px 20px rgba(111, 66, 193, 0.3)";
+          }}
+        >
+          Work With Me
+        </button>
+      </Link>
+    </Col>
+
+    <Col md="auto">
+      <Link to="/">
+        <button
+          style={{
+            backgroundColor: "#6f42c1",
+            border: "none",
+            padding: "15px 35px",
+            borderRadius: "50px",
+            position: "relative",
+            color: "#fff",
+            fontWeight: "600",
+            fontSize: "1.2rem",
+            marginTop: "60px",
+            boxShadow: "0 8px 20px rgba(111, 66, 193, 0.3)",
+            transition: "all 0.3s ease",
+            cursor: "pointer"
+          }}
+          onMouseOver={(e) => {
+            e.currentTarget.style.backgroundColor = "#5a379e";
+            e.currentTarget.style.boxShadow = "0 12px 24px rgba(111, 66, 193, 0.4)";
+          }}
+          onMouseOut={(e) => {
+            e.currentTarget.style.backgroundColor = "#6f42c1";
+            e.currentTarget.style.boxShadow = "0 8px 20px rgba(111, 66, 193, 0.3)";
+          }}
+        >
+          Home
+        </button>
+      </Link>
+    </Col>
+  </Row>
+
+
     {/* Find me on*/}
       
       <Row md={15} className="home-about-social tex t-center mt-5">
@@ -101,7 +171,7 @@ function Projects() {
         }}>
           CONTACT <strong className="purple">ME </strong>
           <span style={{
-            position: "absolute",
+            position: "relative",
             bottom: "20px",
             left: "50%",
             transform: "translateX(-50%)",

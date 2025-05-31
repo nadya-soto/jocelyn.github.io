@@ -1,160 +1,135 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import laptopImg from "../../Assets/about.png";
 
 function AboutCard() {
   return (
     <Container fluid id="about">
       <Container>
-      
-        {/* Título centrado */}
-        <Row className="justify-content-center mb-5">
-          <Col md={15} className="text-center">
+        {/* Título */}
+        <Row className="justify-content-center mb-4">
+          <Col md={12} className="text-center">
             <h1 style={{ fontSize: "2.5em", color: "white" }}>
-              ABOUT <span className="purple">ME</span>
+              WORK <span className="purple">WITH ME</span>
             </h1>
           </Col>
         </Row>
 
-        {/* imagen */}
-        <Row className="align-items-center gx-5 gy-6 justify-content-center">
-          <Col
-              md={4}
-              className="about-img"
-              style={{ 
-                padding: "2rem",
-              }}
-            >
-          <div style={{ 
-          backgroundColor: "rgba(111, 66, 193, 0.1)",
-          padding: "15px",
-          borderRadius: "10px",
-          fontSize: "1em",
-          marginBottom: "20px"
-        }}>
-          <b className="purple">Why Work With Me?</b>
-          <ul style={{ 
-            paddingLeft: "20px",
-            marginTop: "10px",
-            listStyleType: "none"
-          }}>
-            <li style={{ marginBottom: "10px" }}>
-              <span style={{ marginRight: "5px" }}>  <span className="wave" role="img" aria-labelledby="wave">🧠</span> </span>
-              <span className="purple">Academic Rigor:</span> Solid grounding in statistics, optimization, and machine learning
-            </li>
-            <li style={{ marginBottom: "10px" }}>
-              <span style={{ marginRight: "5px" }}>  <span className="wave" role="img" aria-labelledby="wave">🛠️</span> </span>
-              <span className="purple">Deployment Focus:</span> AWS, Docker, Streamlit, and MLOps best practices
-            </li>
-            <li>
-              <span style={{ marginRight: "5px" }}>  <span className="wave" role="img" aria-labelledby="wave">🎯</span> </span>
-              <span className="purple">Business Alignment:</span> Success measured by your KPIs
-            </li>
-          </ul>
-        </div>
-        
-        <div style={{ 
-          fontStyle: "italic",
-          textAlign: "center",
-          margin: "20px 0",
-          fontSize: "1em",
-          paddingTop: "10px"
-        }}>
-          "I don't just build models, I build solutions that scale."
-        </div>
-
-              <img 
-                src={laptopImg} 
-                 className="img-fluid rounded align-items-center" 
-                alt="about" 
-                style={{ 
-                  border: "3px solid #6f42c1",
-                  width: "300px",
-                  boxShadow: "0 5px 15px rgba(111, 66, 193, 0.3)"
-                  
-                }}
-                onMouseEnter={(e) => e.currentTarget.style.transform = "scale(1.02)"}
-                onMouseLeave={(e) => e.currentTarget.style.transform = "scale(1)"}
-              />
-            </Col>
-
-            {/* Contenido principal */}
-          <Col md={7} className="home-about-description">
-            <div style={{ 
-              paddingLeft: "40px",
-              borderLeft: "3px solid #6f42c1",
-              fontSize: "0.9em",
-              position: "relative"
-              
+        {/* Contenido principal */}
+        <Row className="align-items-start gx-5 gy-4 justify-content-center">
+          {/* Columna izquierda */}
+          <Col md={5} className="about-img">
+            <div style={{
+              backgroundColor: "rgba(111, 66, 193, 0.1)",
+              padding: "20px",
+              borderRadius: "10px",
+              fontSize: "1em",
+              marginBottom: "20px"
             }}>
-              <p className="home-about-body" style={{ 
-                fontSize: "1em",
-                lineHeight: "1.8",
-                textAlign: "justify"
+              <b className="purple">Why Jocelyn?</b>
+              <ul style={{
+                paddingLeft: "0",
+                marginTop: "20px",
+                listStyleType: "none",
+                textAlign: "left"
               }}>
-                I'm a <span className="purple">Data Scientist</span> with a <span className="purple">Mathematical Edge</span>, specializing in optimizing business outcomes through AI and rigorous analytics.
-                
-                <br /><br />
-                
-                <div style={{ 
-                  backgroundColor: "rgba(111, 66, 193, 0.1)",
-                  padding: "15px",
-                  borderRadius: "10px",
-                  marginBottom: "20px"
-                }}>
-                  <b className="purple">My Education:</b>
-                  <ul style={{ 
-                    paddingLeft: "20px",
-                    marginTop: "10px",
-                    listStyleType: "none"
-                  }}>
-                    <li style={{ marginBottom: "10px" }}>
-                      <span style={{ marginRight: "5px" }}> <span className="wave" role="img" aria-labelledby="wave">🎓</span> </span>
-                      <span className="purple">MSc in Optimisation and Data Science</span>- University of Essex (Distinction)
-                      </li>
-                    <li>
-                      <span style={{ marginRight: "5px" }}> <span className="wave" role="img" aria-labelledby="wave"> 🎓</span></span>
-                      <span className="purple">BSc in Applied Mathematics</span>- Instituto Tecnológico Autónomo de México (ITAM)
-                    </li>
-                  </ul>
-                </div>
-                
-                <div style={{ 
-                  backgroundColor: "rgba(111, 66, 193, 0.1)",
-                  padding: "15px",
-                  borderRadius: "10px",
-                  marginBottom: "20px"
-                }}>
-                  <b className="purple">What I Deliver:</b>
-                  <ul style={{ 
-                    paddingLeft: "20px",
-                    marginTop: "10px",
-                    listStyleType: "none"
-                  }}>
-                    <li style={{ marginBottom: "20px" }}>
-                      <span style={{ marginRight: "5px" }}> <span className="wave" role="img" aria-label="brain">🧠</span>{" "} </span>
-                      <span className="purple">NLP Expertise:</span> Built audio/text pipelines with Whisper, spaCy, and classification models for real-time analysis </li>
-                    <li style={{ marginBottom: "20px" }}>
-                      <span style={{ marginRight: "5px" }}> <span className="wave" role="img" aria-labelledby="wave">💬</span> </span>
-                      <span className="purple">Social Impact:</span> Designed tools to analyze poverty, government budgets, and social risk using data science </li>
-                    <li style={{ marginBottom: "20px" }}>
-                      <span style={{ marginRight: "5px" }}> <span className="wave" role="img" aria-labelledby= "globe">🌍</span></span>
-                      <span className="purple">Accessible AI:</span> Developed web apps that democratize insights for non-technical users, used in public services and policy </li>
-                  <li style={{ marginBottom: "20px" }}>
-                      <span style={{ marginRight: "5px" }}> <span className="wave" role="img" aria-labelledby="wave"> 📈</span></span>
-                      <span className="purple">Research Rigor:</span> Academic background in optimization, time series, and reinforcement learning applied to real-world data</li>
-                      </ul>
-                </div>
-                
-            
-              </p>
+                <li style={{ marginBottom: "10px" }}>
+                  <span className="wave" role="img" aria-labelledby="wave">🧠</span>
+                  <span className="purple"> Academic Rigor:</span> Solid grounding in statistics, optimization, and machine learning
+                </li>
+                <li style={{ marginBottom: "10px" }}>
+                  <span className="wave" role="img" aria-labelledby="wave">🎯</span>
+                  <span className="purple"> Business Alignment:</span> Success measured by your KPIs
+                </li>
+                <li style={{ marginBottom: "10px" }}>
+                  <span className="wave" role="img" aria-labelledby="wave">🔍</span>
+                  <span className="purple"> Curiosity & Innovation:</span> Always exploring new tools, ideas, and questions to drive smarter solutions
+                </li>
+                <li style={{ marginBottom: "10px" }}>
+                  <span className="wave" role="img" aria-labelledby="wave">🤝</span>
+                  <span className="purple"> Collaborative Spirit:</span> I build bridges between tech and business teams to get things done
+                </li>
+                <li>
+                  <span className="wave" role="img" aria-labelledby="wave">❤️</span>
+                  <span className="purple"> Empathy-Driven:</span> My models don’t just predict, they help solve real-world problems for real people
+                </li>
+              </ul>
+            </div>
+
+            <div style={{
+              fontStyle: "italic",
+              textAlign: "center",
+              fontSize: "1em",
+              marginTop: "10px"
+            }}>
+
+  If you're solving something meaningful, I’d love to help make it real with data. ✨
             </div>
           </Col>
-          
-         
+
+          {/* Columna derecha */}
+          <Col md={6} className="home-about-description">
+            <div style={{
+              paddingLeft: "30px",
+              borderLeft: "3px solid #6f42c1"
+            }}>
+              <div style={{
+                backgroundColor: "rgba(111, 66, 193, 0.1)",
+                padding: "20px",
+                borderRadius: "10px",
+                marginBottom: "20px"
+              }}>
+                <ul style={{
+                  listStyleType: "none",
+                  paddingLeft: "0",
+                  fontSize: "1.1em",
+                  textAlign: "justify"
+                }}>
+                  <li style={{ marginBottom: "20px" }}>
+                    <span className="wave" role="img" aria-labelledby="wave">📐</span>
+                    I am a <span className="purple">Mathematician</span> and <span className="purple">ML developer</span> from Mexico, with a
+                    <span className="purple"> MSc (with distinction)</span> from the University of Essex (UK) 🇬🇧 and a
+                    <span className="purple"> BSc in Applied Mathematics</span> from ITAM 🇲🇽.
+                  </li>
+                  <li style={{ marginBottom: "20px" }}>
+                    <span className="wave" role="img" aria-labelledby="wave">📊</span>
+                    <span className="purple"> Numbers, models, and mathematical thinking </span> are my comfort zone, I grew up solving equations for fun.
+                  </li>
+                  <li style={{ marginBottom: "20px" }}>
+                    <span className="wave" role="img" aria-labelledby="wave">🧠</span>
+                    <span className="purple"> My mission?</span> Turn data into decisions and, occasionally, try to save the world with machine learning.
+                  </li>
+                   <li style={{ marginBottom: "15px" }}>
+                    <span className="wave" role="img" aria-labelledby="wave">🌐</span>
+                    <span className="purple"> International perspective:</span> I’ve worked and studied across cultures bridging context, language, and insight.
+                  </li>
+                  <li>
+                    <span className="wave" role="img" aria-labelledby="wave">⚡</span>
+                    <span className="purple"> Startup & enterprise mindset:</span> Comfortable adapting to fast-changing environments or structured corporate processes.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </Col>
         </Row>
 
-        
+        {/* Mensaje final */}
+        <Row className="justify-content-center">
+          <Col md={10}>
+            <div style={{
+              fontStyle: "italic",
+              textAlign: "center",
+              fontSize: "1em",
+              marginTop: "40px"
+            }}>
+              Thanks for stopping by and for reading this far! <span className="wave" role="img" aria-labelledby="wave">🚀</span>
+              <li style={{ marginTop: "10px", listStyleType: "none" }}>
+                <span className="wave" role="img" aria-labelledby="wave">🤝</span>
+                <span className="purple"> Scroll down to see how I can help and what we can build together.</span>
+              </li>
+            </div>
+          </Col>
+        </Row>
+
       </Container>
     </Container>
   );
